@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Authorization code</title>
+</head>
+<body>
+<h1>Authorization code</h1>
+<p id="out" style="font-size:28px; word-break:break-all; font-family:monospace;">Reading…</p>
+<script>
+var q = new URLSearchParams(window.location.search);
+var code = q.get('code');
+var err = q.get('error');
+document.getElementById('out').textContent = code ? ('CODE: ' + code) : ('ERROR: ' + (err || 'no code in URL'));
+</script>
+</body>
+</html>
