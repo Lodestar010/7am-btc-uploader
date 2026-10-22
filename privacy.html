@@ -7,31 +7,41 @@
 </head>
 <body>
 <h1>Privacy Policy — 7am BTC Uploader</h1>
-<p>Effective: October 16, 2026</p>
-<p>7am BTC Uploader is a private, single-user application operated by the owner of
-the "7am BTC Daily NYC Update" YouTube channel. This policy explains what the
-application accesses and how that access is used.</p>
-<h2>Who uses this application</h2>
-<p>Only the owner. The application has no other users, offers no sign-up, and is
-never operated on anyone else's behalf.</p>
-<h2>What it accesses</h2>
-<p>With the owner's authorization, the application uses a single Google permission:
-uploading videos to the owner's own YouTube channel (the YouTube Data API
-"youtube.upload" scope). It does not read comments, analytics, subscriptions, or
-any other account data, and it does not access any other person's Google account
-or data.</p>
-<h2>What it stores</h2>
-<p>The application stores one item: the OAuth token that records the owner's
-authorization. The token is kept in the owner's secure credential storage and is
-used only to perform the daily upload. No personal information about any third
-party is collected, stored, shared, or sold — there is no third-party data involved
-at any point.</p>
-<h2>Tracking</h2>
-<p>None. The application and this site run no analytics, no advertising, and no
-tracking of any kind.</p>
-<h2>Revoking access</h2>
-<p>The owner can revoke the application's access at any time from the Google
-Account permissions page, which immediately stops it from uploading.</p>
+<p>Last updated: October 21, 2026</p>
+<p>7am BTC Uploader is a personal software tool owned and operated by one individual,
+Douglas Brownfield. It is not a public service, is not distributed to anyone, and
+has exactly one user: its owner.</p>
+<h2>What the tool does</h2>
+<p>The tool uploads one video per day to the owner's own YouTube channel,
+"7am BTC Daily NYC Update," using the YouTube Data API v3 (videos.insert) with the
+single OAuth scope "youtube.upload."</p>
+<h2>Data the tool accesses</h2>
+<ul>
+<li>The owner's own Google account authorization (OAuth 2.0) for the youtube.upload
+scope only.</li>
+<li>The video files and metadata (title, description, tags) that the owner himself
+creates each day.</li>
+</ul>
+<p>The tool does not read, collect, or store any information about viewers,
+subscribers, or any other person or channel, and it calls no YouTube API endpoint
+other than the upload endpoint.</p>
+<h2>Data stored, and where</h2>
+<p>The owner's OAuth refresh token and client credentials are stored in a file on the
+owner's own computer, restricted to owner-only file permissions (0600). Nothing is
+stored on a server, transmitted to any third party, sold, shared, or used for
+advertising or analytics.</p>
+<h2>Revoking access and deleting data</h2>
+<p>The owner can revoke the tool's access at any time from his Google Account's
+third-party access settings, and deleting the local token file permanently removes
+the stored credential. Any stored data is deleted immediately on revocation, and
+in all cases within 30 days, consistent with the YouTube Developer Policies.</p>
+<h2>Google and YouTube terms</h2>
+<p>Google's handling of data is described in the
+<a href="https://policies.google.com/privacy">Google Privacy Policy</a>. Use of
+YouTube is also subject to the
+<a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. This tool
+uses YouTube API Services, and its use is subject to the
+<a href="https://developers.google.com/youtube/terms/api-services-terms-of-service">YouTube API Services Terms of Service</a>.</p>
 <h2>Contact</h2>
 <p>masterworktoolbox@gmail.com</p>
 </body>
